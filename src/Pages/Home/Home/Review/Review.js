@@ -1,7 +1,7 @@
 import React from "react";
-import fatema from "../../../../assets/images/Customers/Fatema.PNG";
-import mukta from "../../../../assets/images/Customers/Mukta.jpg";
-import masud from "../../../../assets/images/Customers/Rana.jpg";
+import mahir from "../../../../assets/images/Customers/Mahir.jpg";
+import raiyan from "../../../../assets/images/Customers/Raiyan.jpg";
+import anik from "../../../../assets/images/Customers/Anik.jpg";
 
 const Review = () => {
   return (
@@ -21,12 +21,12 @@ const Review = () => {
         <div className="flex flex-col dark:bg-violet-400 rounded">
           <div className="flex flex-col items-center justify-center dark:text-gray-900">
             <img
-              src={fatema}
+              src={mahir}
               alt=""
               className="w-28 h-28 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-700"
             />
             <p className="text-xl pt-3 font-semibold leading-tight">
-              Fatema Shamme Nur
+              Mosharaf Hossen Mahir
             </p>
           </div>
           <div className="px-3 py-5 mb-3">
@@ -58,12 +58,12 @@ const Review = () => {
         <div className="flex flex-col dark:bg-violet-400 rounded">
           <div className="flex flex-col items-center justify-center dark:text-gray-900">
             <img
-              src={mukta}
+              src={raiyan}
               alt=""
               className="w-28 h-28 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-700"
             />
             <p className="text-xl pt-3 font-semibold leading-tight">
-              Mukta Rani Das
+              Raiyan Monsur
             </p>
           </div>
           <div className="px-3 py-5 mb-3">
@@ -95,12 +95,12 @@ const Review = () => {
         <div className="flex flex-col dark:bg-violet-400 rounded">
           <div className="flex flex-col items-center justify-center dark:text-gray-900">
             <img
-              src={masud}
+              src={anik}
               alt=""
               className="w-28 h-28 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-700"
             />
             <p className="text-xl pt-3 font-semibold leading-tight">
-              Masud Rana
+              Anik
             </p>
           </div>
           <div className="px-3 py-5 mb-3">
